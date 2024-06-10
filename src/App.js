@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import commonBackground from "./images/background.png";
+import navbar from "./images/nav-bar.png";
+import Background from "./components/Background";
+import Section1 from "./components/Section1.js";
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
+import WhyChooseUsSection from "./components/WhyChooseUsSection";
+import OurwebsiteSection from "./components/OurwebsiteSection";
+import Services from "./components/Services";
+import Logo from "./images/logo2.png";
+import PortfolioSection from "./components/PortfolioSection.js";
+import InsightsSection from "./components/Insights.js";
+import FormSection from "./components/FormSection.js";
+import Footer from "./components/Footer.js";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ fontFamily: "sans-serif" }}>
+      <div>
+        <Background>
+          <nav className="mb-8">
+            <img src={navbar} alt="Navbar" />
+          </nav>
+          <Section1 />
+        </Background>
+        <Section2 />
+        <Section3 />
+        <Background>
+          <WhyChooseUsSection />
+          <OurwebsiteSection />
+        </Background>
+        <Services />
+        <div className="w-full">
+          <img className="w-full" src={Logo} alt="Logo" />
+        </div>
+        <PortfolioSection />
+        <InsightsSection />
+        <FormSection />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -12,12 +12,12 @@ const Footer = () => {
     <div className="bg-dark">
       <div className="bg-black text-white p-20">
         <div
-          className="space-y-10 lg: space-y-0 flex-justify-column
+          className="space-y-10 lg:space-y-0 flex-justify-column
         lg:flex justify-between 
         md:items-center "
         >
           <Button text="Web Magnetism" variant="button5" />
-          <Button text="Contact Us" variant="button1" />
+          <Button text="Contact Us" variant="button3" />
         </div>
         <hr
           style={{
@@ -29,8 +29,6 @@ const Footer = () => {
           }}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 text-left w-80 lg:w-auto ">
-          {/* Your existing content */}
-          {/* Services */}
           <div>
             <h3 className="text-lg font-semibold  mb-2 mt-6 capitalize">
               Services
@@ -39,7 +37,7 @@ const Footer = () => {
               style={{
                 marginTop: "8px",
                 marginBottom: "16px",
-                width: "80%%",
+                width: "80%",
                 border: "none",
                 height: "1px",
                 background: "white",
@@ -74,12 +72,42 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-2 mt-6  capitalize">
               Home
             </h3>
+            <hr
+              style={{
+                marginTop: "8px",
+                marginBottom: "16px",
+                width: "30%",
+                border: "none",
+                height: "1px",
+                background: "white",
+              }}
+            />
             <h3 className="text-lg font-semibold mb-2 mt-4 capitalize">
               About us
             </h3>
+            <hr
+              style={{
+                marginTop: "8px",
+                marginBottom: "16px",
+                width: "40%",
+                border: "none",
+                height: "1px",
+                background: "white",
+              }}
+            />
             <h3 className="text-lg font-semibold mb-2 mt-4 capitalize">
               Contact us
             </h3>
+            <hr
+              style={{
+                marginTop: "8px",
+                marginBottom: "16px",
+                width: "40%",
+                border: "none",
+                height: "1px",
+                background: "white",
+              }}
+            />
             <ul className="mt-20 text-gray-400">
               <li>United Kington,</li>
               <li>TW4 7LULondon</li>
@@ -90,6 +118,16 @@ const Footer = () => {
             <h3 className="text-white  font-semibold text-lg mb-2">
               Resources
             </h3>
+            <hr
+              style={{
+                marginTop: "8px",
+                marginBottom: "16px",
+                width: "40%",
+                border: "none",
+                height: "1px",
+                background: "white",
+              }}
+            />
             <ul>
               <li>Our Work</li>
               <li>Insights</li>
@@ -97,7 +135,17 @@ const Footer = () => {
           </div>
           {/* Social Media Icons */}
           <div className="flex flex-col mb-2 mt-6 lg:ml-20 lg:w-80">
-            <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
+            <h3 className="font-semibold text-lg mb-4">Social media</h3>
+            <hr
+              style={{
+                marginTop: "8px",
+                marginBottom: "16px",
+                width: "50%",
+                border: "none",
+                height: "1px",
+                background: "white",
+              }}
+            />
             <div className="flex items-center transition-all duration-100 ease-in-out hover:scale-105 cursor-pointer">
               <img src={icon1} alt="Facebook" className="w-8 h-8 mr-2 mb-2" />
               <span className="text-gray-400">Facebook</span>

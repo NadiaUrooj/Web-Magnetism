@@ -41,7 +41,7 @@ const Button = ({ text, variant }) => {
       },
     },
     button5: {
-      buttonClass: `rounded-lg text-center py-3  px-6 lg:px-4 flex items-center justify-center font-semibold mb-4 text-lg text-black uppercase`,
+      buttonClass: `rounded-lg text-center py-3  px-6 lg:px-4 flex items-center justify-center font-semibold  text-lg text-black uppercase`,
       customStyle: {
         backgroundImage: `url(${Background})`,
         backgroundSize: "cover",

@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import commonBackground from "./images/background.png";
 import navbar from "./images/nav-bar.png";
 import Background from "./components/Background";
 import Section1 from "./components/Section1.js";

@@ -9,7 +9,7 @@ const Insights = () => {
   return (
     <div>
       {" "}
-      <img src={Wave} alt="" className="w-100vw " />
+      <img src={Wave} alt="" className="w-full " />
       <div className="  bg-white py-10 px-4 md:px-10 lg:px-8 lg:mt-[-24%] md:mt-[-30%]  mt-[-30%]">
         <h2 className="text-white font-bold mt-[-3%] text-centre  text-lg lg:text-3xl">
           Latest Insights
@@ -36,7 +36,9 @@ const Insights = () => {
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">25.01.2024</span>
                 <a href="/" className="text-sm gradient-text ">
-                  <u className="decoration-red-600 decoration-0 ">Read More</u>
+                  <u className="decoration-red-600 decoration-0 " href="/">
+                    Read More
+                  </u>
                 </a>
               </div>
             </div>
@@ -62,7 +64,9 @@ const Insights = () => {
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">25.01.2024</span>
                 <a href="/" className="text-sm gradient-text ">
-                  <u className="decoration-red-600 decoration-0 ">Read More</u>
+                  <u className="decoration-red-600 decoration-0 " href="/">
+                    Read More
+                  </u>
                 </a>
               </div>
             </div>
@@ -88,7 +92,9 @@ const Insights = () => {
               <div className="flex justify-between items-center">
                 <span className="text-gray-500 text-sm">25.01.2024</span>
                 <a href="/" className="text-sm gradient-text ">
-                  <u className="decoration-red-600 decoration-0 ">Read More</u>
+                  <u className="decoration-red-600 decoration-0 " href="/">
+                    Read More
+                  </u>
                 </a>
               </div>
             </div>

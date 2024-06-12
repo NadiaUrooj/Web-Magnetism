@@ -9,7 +9,7 @@ const OurWork = () => {
     <div className="min-h-screen p-8 lg:p-28 bg-white">
       <div className="flex flex-col lg:flex-row w-full">
         <div className="lg:w-1/2 text-left w-full lg:w-1/2">
-          <h2 className="text-3xl font-bold mb-6">Our Work</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Our Work</h2>
           <p className="text-gray-700 mb-5">
             We don’t claim to be gurus or wizards. We’re just a super
             experienced, passionate team who knows how to get results for our
@@ -37,7 +37,7 @@ const OurWork = () => {
           <img
             src={ReviewImage}
             alt="Review"
-            className="w-full w-auto h-auto"
+            className="w-full w-auto h-auto hover:cursor-pointer"
           />
         </div>
         <div className="flex justify-center">

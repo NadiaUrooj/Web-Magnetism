@@ -10,11 +10,11 @@ const Section2 = () => {
         src={Wave}
         alt="Wave"
         className="absolute top-0 left-0 w-full z-0"
-        style={{ marginTop: "-70px" }} // Adjust the amount to show a bit of the wave on the previous page
+        style={{ marginTop: "-80px" }}
       />
       <div className="flex flex-wrap bg-white px-10 lg:px-24 py-12 lg:py-24 relative z-10">
         <div className="lg:w-1/2 lg:pr-16 ">
-          <h2 className="font-semibold text-3xl lg:text-4xl mb-6">
+          <h2 className="font-semibold text-left text-3xl lg:text-4xl mb-6">
             Welcome to Web Magnetism
           </h2>
           <p className="mb-4 text-left font-light text-base lg:text-lg max-w-lg">

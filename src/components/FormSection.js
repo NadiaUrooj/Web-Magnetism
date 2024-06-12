@@ -4,11 +4,11 @@ const FormSection = () => {
   return (
     <div className="bg-#f3f2ff min-h-screen flex flex-col lg:flex-row px-20 py-24">
       <div className=" text-left mb-8 lg:mb-0">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-semibold mb-10 w-80  capitalize">
+        <div className="max-w-4xl  mx-auto">
+          <h2 className="text-3xl font-semibold mb-10 lg:w-80 lg:mx-20 capitalize sm:pr-10">
             Let’s talk about your project
           </h2>
-          <p className="text-gray-700 font-light mb-10 w-80 lg:w-2/3 ">
+          <p className="text-gray-700 font-light mb-10 lg:mx-20 lg:w-80 lg:w-2/3 sm:pr-10 ">
             Do you have a project in mind, that you feel our approach would work
             well for? <br></br>
             <br></br>We’re always happy to discuss your project with you and put
